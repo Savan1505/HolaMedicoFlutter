@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-my/values-my.xml",
+            "map": [
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/res/values-my/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "149",
+                        "endOffsets": "344"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "153",
+                        "endOffsets": "204"
+                    }
+                },
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/values-my/values-my.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "285",
+                        "endColumns": "100",
+                        "endOffsets": "381"
+                    }
+                },
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/res/values-my/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "207",
+                        "endColumns": "71",
+                        "endOffsets": "278"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "209",
+                        "endColumns": "75",
+                        "endOffsets": "280"
+                    }
+                }
+            ]
+        }
+    ]
+}

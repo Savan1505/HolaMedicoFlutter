@@ -1,0 +1,194 @@
+import 'package:badges/badges.dart';
+import 'package:ff_navigation_bar/ff_navigation_bar.dart';
+import 'package:ff_navigation_bar/ff_navigation_bar_item.dart';
+import 'package:ff_navigation_bar/ff_navigation_bar_theme.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:pharmaaccess/components/drawer/app_drawer.dart';
+import 'package:pharmaaccess/pages/index.dart';
+import 'package:pharmaaccess/widgets/bottombar/button.dart';
+import 'package:pharmaaccess/widgets/title_widget.dart';
+
+class MainScreen extends StatefulWidget {
+  @override
+  _MainScreenState createState() => _MainScreenState();
+}
+
+class _MainScreenState extends State<MainScreen>
+    with TickerProviderStateMixin<MainScreen> {
+  int _page = 0;
+  PageController _controller = PageController(initialPage: 0);
+  ScrollController _scrollController = new ScrollController();
+  bool _isPageViewAnimating = false;
+  int _animateTo = 0;
+  final _scaffoldKey = GlobalKey<ScaffoldState>();
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      key: _scaffoldKey,
+      endDrawer: AppDrawer(),
+      body: SafeArea(
+        top: false,
+        child: NestedScrollView(
+        controller: _scrollController,
+          headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
+            return <Widget>[
+              SliverAppBar(
+                primary: true,
+                centerTitle: true,
+                title: TitleWidget(),
+                backgroundColor: Colors.white,
+                leading: Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Badge(
+                    showBadge: true,
+                    borderRadius: 0,
+                    position: BadgePosition.topRight(top: -2, right: 2),
+                    badgeColor: Colors.white,
+                    badgeContent: Text(
+                      '3',
+                      style: TextStyle(fontSize: 12),
+                    ),
+                    child: IconButton(
+                      color: Colors.black87,
+                      padding: EdgeInsets.all(0),
+                      icon: SvgPicture.asset(
+                          'assets/images/icon_notification.svg',
+                          color: Colors.black87),
+                      tooltip: 'Notifications',
+                      onPressed: () {/* ... */},
+                    ),
+                  ),
+                ),
+                actions: <Widget>[
+                  IconButton(
+                    color: Colors.black87,
+                    icon: const Icon(Icons.mic),
+                    tooltip: 'Voice',
+                    onPressed: () {/* ... */},
+                  ),
+                ],
+              ),
+            ];
+          },
+          body: PageView(
+            onPageChanged: (int page) {
+              if (_isPageViewAnimating && page != _animateTo) return;
+
+              setState(() {
+                _isPageViewAnimating = false;
+                _animateTo = page;
+                _page = page;
+              });
+            },
+            controller: _controller,
+            children: <Widget>[
+              HomePage(),
+              BrandPage(),
+              HomePage(),
+              BrandPage(),
+            ],
+          ),
+        ),
+      ),
+      bottomNavigationBar: FFNavigationBar(
+        theme: FFNavigationBarTheme(
+          barBackgroundColor: Colors.white,
+          selectedItemBorderColor: Colors.yellow,
+          selectedItemBackgroundColor: Colors.green,
+          selectedItemIconColor: Colors.white,
+          selectedItemLabelColor: Colors.black,
+        ),
+        selectedIndex: _page,
+        onSelectTab: (index) {
+          setState(() {
+            _page = index;
+          });
+        },
+        items: [
+          FFNavigationBarItem(
+            iconData: Icons.calendar_today,
+            label: 'Schedule',
+          ),
+          FFNavigationBarItem(
+            iconData: Icons.people,
+            label: 'Contacts',
+          ),
+          FFNavigationBarItem(
+            iconData: Icons.attach_money,
+            label: 'Bills',
+          ),
+          FFNavigationBarItem(
+            iconData: Icons.note,
+            label: 'Notes',
+          ),
+          FFNavigationBarItem(
+            iconData: Icons.settings,
+            label: 'Settings',
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget bottomMenuButtonBuilder(BarButton destination) {
+    switch (destination.title) {
+      case "Search":
+        {
+          return IconButton(
+            splashColor: Colors.white70,
+            color: Colors.white,
+            padding: EdgeInsets.all(0),
+            icon: const Icon(Icons.search),
+            tooltip: 'Search',
+            onPressed: () {},
+          );
+        }
+        break;
+      case "More":
+        {
+          return IconButton(
+            splashColor: Colors.white70,
+            color: Colors.white,
+            padding: EdgeInsets.all(0),
+            icon: const Icon(Icons.more_horiz),
+            tooltip: 'Search',
+            onPressed: () {
+              _scaffoldKey.currentState.openEndDrawer();
+            },
+          );
+        }
+        break;
+      case "Club":
+        {
+          return Container(
+            width: 24,
+            height: 24,
+            child: SvgPicture.asset('assets/images/icon_club.svg',
+                color: Colors.white,
+                width: 24),
+          );
+        }
+        break;
+      case "Brands":
+        {
+          return SizedBox(
+            width: 24,
+            height: 24,
+            child: SvgPicture.asset('assets/images/icon_brand.svg', color: Colors.white, width: 24),
+          );
+        }
+        break;
+      default:
+        return Icon(destination.icon, color: Colors.white);
+    }
+  }
+}

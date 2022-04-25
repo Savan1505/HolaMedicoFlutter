@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "493828337917",
+    "project_id": "hola-medico-bcba9",
+    "storage_bucket": "hola-medico-bcba9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493828337917:android:1fcd951cf2f33ccbc24e94",
+        "android_client_info": {
+          "package_name": "me.g3it.pharmaaccess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493828337917-2fhk16hmpratcqpbb980spcdh9qoo4f2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.g3it.pharmaaccess",
+            "certificate_hash": "910ec0809663351c47e1f09736ac44f92c66285f"
+          }
+        },
+        {
+          "client_id": "493828337917-clb3ogqdsao4d4sooo9qmt3d3k8j2sam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.g3it.pharmaaccess",
+            "certificate_hash": "de1e0aaed0233bb847ed57fdf473c5ef4eea7eed"
+          }
+        },
+        {
+          "client_id": "493828337917-vl0ikn5tqfr3aidv8t511o1h2gd9jtej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiKQ2BaRoZ28_FModdtGlARykai8cQXfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493828337917-vl0ikn5tqfr3aidv8t511o1h2gd9jtej.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "493828337917-440jqs7ppikoc5s42poumgo39fkmpq48.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "me.g3it.pharmaaccessfzllc",
+                "app_store_id": "1526398025"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

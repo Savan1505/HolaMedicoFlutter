@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/wakelock/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/wakelock/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/wakelock/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/wakelock/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/wakelock/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/wakelock/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    }
+]

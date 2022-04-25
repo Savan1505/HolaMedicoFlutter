@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/drawable/notification_bg_low.xml"
+    }
+]

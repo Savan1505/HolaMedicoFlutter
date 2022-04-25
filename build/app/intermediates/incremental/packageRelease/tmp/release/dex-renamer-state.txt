@@ -1,0 +1,4 @@
+#Wed Apr 13 18:51:03 IST 2022
+base.0=/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

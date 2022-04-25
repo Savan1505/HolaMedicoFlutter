@@ -1,0 +1,298 @@
+import 'dart:async';
+
+import 'package:direct_select/direct_select.dart';
+import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:outline_material_icons/outline_material_icons.dart';
+import 'package:pharmaaccess/main.dart';
+import 'package:pharmaaccess/models/profile_model.dart';
+import 'package:pharmaaccess/services/auth_service.dart';
+import 'package:pharmaaccess/theme.dart';
+import 'package:pharmaaccess/widgets/text_field_widget.dart';
+import 'package:rounded_loading_button/rounded_loading_button.dart';
+
+class ContactPage extends StatefulWidget {
+  @override
+  _ContactPageState createState() => _ContactPageState();
+}
+
+class _ContactPageState extends State<ContactPage> {
+  final username = TextEditingController();
+  final email = TextEditingController();
+  final phone = TextEditingController();
+  final description = TextEditingController();
+  final RoundedLoadingButtonController _btnController = RoundedLoadingButtonController();
+  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+
+  List<String> _subjects = [
+    "Medical Information Request",
+    "Brand Feedback",
+    "Other Feedback",
+    "Other Request"
+  ];
+  int selectedSubject = 0;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      key: _scaffoldKey,
+      appBar: AppBar(
+        backgroundColor: primaryColor,
+        title: Text('Contact Cinfa'),
+      ),
+      body: FutureBuilder<ProfileModel>(
+        future: AuthService().getProfile(),
+        builder: (context, snapshot) {
+
+          if (snapshot.connectionState == ConnectionState.done) {
+            var profile = snapshot.data;
+            username.text = profile.name;
+            email.text = profile.email;
+            phone.text = profile.phone;
+            return Container(
+                child: ListView(
+                  children: <Widget>[
+                    Container(
+                      width: MediaQuery.of(context).size.width * .9,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(14),
+                        color: Colors.white,
+                      ),
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 26.0, horizontal: 36),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            FormFieldWidget(
+                                controller: username,
+                                hintText: 'Name',
+                                suffixIcon: Icon(
+                                  Icons.person_outline,
+                                  color: Colors.grey[200],
+                                )),
+                            FormFieldWidget(
+                                controller: email,
+                                hintText: 'Email ID',
+                                suffixIcon: Icon(
+                                  OMIcons.email,
+                                  color: Colors.grey[200],
+                                )),
+                            FormFieldWidget(
+                                controller: phone,
+                                hintText: 'Mobile',
+                                suffixIcon: IconButton(
+                                  icon: FaIcon(
+                                    FontAwesomeIcons.mobileAlt,
+                                    color: Colors.grey[200],
+                                  ),
+                                  onPressed: null,
+                                )),
+            //                    FormFieldWidget(
+            //                      controller: title,
+            //                      hintText: 'Subject',
+            //                      suffixIcon: Container(
+            //                        margin: EdgeInsets.all(16),
+            //                        child: Icon(
+            //                          Icons.vpn_key,
+            //                          color: Colors.grey[200],
+            //                        ),
+            //                      ),
+            //                    ),
+                            DirectSelect(
+                                itemExtent: 35.0,
+                                selectedIndex: selectedSubject,
+                                child: MySelectionItem(
+                                  isForList: false,
+                                  title: _subjects[selectedSubject],
+                                ),
+                                onSelectedItemChanged: (index) {
+                                  setState(() {
+                                    selectedSubject = index;
+                                  });
+                                },
+                                items: _buildSubjects()),
+                            TextField(
+                              controller: description,
+                              keyboardType: TextInputType.multiline,
+                              maxLines: 4,
+                              cursorColor: Colors.amber,
+                              decoration: InputDecoration(
+                                suffixIcon: Icon(Icons.edit, color: Colors.grey[200],),
+                                hintText: 'Description',
+                                hintStyle: TextStyle(
+                                  color: Colors.grey[200],
+                                ),
+                                border: inputBorder,
+                                enabledBorder: inputBorder,
+                                focusedBorder: focusedBorder,
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.symmetric(vertical: 10),
+                              child: SizedBox(
+                                height: 60,
+                                width: double.infinity,
+                                child: Container(
+                                  child: RoundedLoadingButton(
+                                      shapeBorder: RoundedRectangleBorder(
+                                          borderRadius:
+                                          new BorderRadius.circular(6)),
+                                      height: 60,
+                                      onPressed: () async {
+                                        if (username.text.trim().isEmpty ||
+                                            phone.text.trim().isEmpty ||
+                                            description.text.trim().isEmpty
+                                        ) {
+                                          _scaffoldKey.currentState.showSnackBar(SnackBar(
+                                            backgroundColor: primaryColor,
+                                            content: Text(
+                                                'Please fill in all required fields.',
+                                                style: styleNormalBodyText
+                                                    .copyWith(
+                                                    color: Colors.white)),
+                                          ));
+                                          _btnController.reset();
+                                          return;
+                                        }
+                                        bool emailValid = RegExp(
+                                            r"^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,253}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,253}[a-zA-Z0-9])?)*$")
+                                            .hasMatch(email.text.trim());
+                                        if (emailValid == false) {
+                                          _scaffoldKey.currentState.showSnackBar(SnackBar(
+                                            backgroundColor: primaryColor,
+                                            content: Text(
+                                                'Please enter valid email.',
+                                                style: styleNormalBodyText
+                                                    .copyWith(color: Colors.white),
+                                            ),
+                                          ));
+                                          _btnController.reset();
+                                          return;
+                                        }
+
+                                        var p = await authService.authProvider.client.callController('/app/contact_us', {'username': username.text, 'token': profile.token,
+                                        'email': email.text, 'aemail': profile.email, 'subject': _subjects[selectedSubject],
+                                        'description' : description.text});
+                                        if (p == null || p.getResult() == false) {
+                                          //TODO Show error registering account.
+                                          final snackBar = SnackBar(
+                                            backgroundColor: primaryColor,
+                                            content: Text(
+                                                'Error Submitting Feedback, Please retry',
+                                                style: styleNormalBodyText
+                                                    .copyWith(
+                                                    color: Colors.white)),
+                                            action: SnackBarAction(
+                                              label: 'OK',
+                                              onPressed: () {
+                                                // Some code to undo the change.
+                                              },
+                                            ),
+                                          );
+                                          _scaffoldKey.currentState.showSnackBar(snackBar);
+                                          _btnController.error();
+                                          Timer(Duration(milliseconds: 2000),() {
+                                            _btnController.reset();
+                                          });
+                                        } else {
+                                          _btnController.success();
+                                          Timer(Duration(milliseconds: 1500),() {
+                                            Navigator.of(context)
+                                                .pushNamedAndRemoveUntil(
+                                                '/',
+                                                    (Route<dynamic> route) =>
+                                                false);
+                                          });
+                                        }
+                                      },
+                                      color: primaryColor,
+                                      animateOnTap: true,
+                                      controller: _btnController,
+                                      child: Text(
+                                        "SUBMIT",
+                                        style: Theme.of(context)
+                                            .textTheme
+                                            .display1
+                                            .apply(color: Colors.white,)
+                                            .copyWith(fontWeight: FontWeight.w600),
+                                      )),
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+            );
+          }
+          return Container();
+        }
+      ),
+    );
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    username.dispose();
+    email.dispose();
+    phone.dispose();
+    description.dispose();
+    super.dispose();
+  }
+
+  List<Widget> _buildSubjects() {
+    return _subjects.map((val) => MySelectionItem(
+      title: val,
+    )).toList();
+  }
+}
+
+
+
+
+class MySelectionItem extends StatelessWidget {
+  final String title;
+  final bool isForList;
+
+  const MySelectionItem({Key key, this.title, this.isForList = true})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      height: 60.0,
+      child: isForList
+          ? Padding(
+        child: _buildItem(context),
+        padding: EdgeInsets.all(10.0),
+      )
+          : Card(
+        margin: EdgeInsets.symmetric(vertical: 10.0),
+        child: Stack(
+          children: <Widget>[
+            _buildItem(context),
+            Align(
+              alignment: Alignment.centerRight,
+              child: Icon(Icons.arrow_drop_down),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildItem(BuildContext context) {
+    return Container(
+      width: MediaQuery.of(context).size.width,
+      alignment: Alignment.center,
+      child: FittedBox(
+          child: Text(
+            title,
+          )),
+    );
+  }
+}

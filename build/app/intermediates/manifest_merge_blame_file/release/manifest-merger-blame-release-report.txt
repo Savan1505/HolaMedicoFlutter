@@ -1,0 +1,571 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="me.g3it.pharmaaccess"
+4    android:versionCode="4442"
+5    android:versionName="4.0.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:7:5-76
+13-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:8:5-65
+14-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:8:22-62
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:9:5-71
+15-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:9:22-68
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:10:5-80
+16-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:11:5-81
+17-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+18-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:12:5-80
+18-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:12:22-77
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:13:5-77
+19-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:13:22-74
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:14:5-81
+20-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:14:22-78
+21    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+21-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:15:5-78
+21-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:15:22-75
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:16:5-68
+22-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:16:22-65
+23    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+23-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:17:5-19:47
+23-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:18:9-69
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:20:5-66
+24-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:20:22-63
+25    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+25-->[:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
+25-->[:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:22-78
+26    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:10:5-79
+26-->[:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:10:22-76
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+27-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+28-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+29    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+29-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51f9a07eabc23024f65b75060c266516/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+29-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51f9a07eabc23024f65b75060c266516/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+30    <!--
+31 io.flutter.app.FlutterApplication is an android.app.Application that
+32         calls FlutterMain.startInitialization(this); in its onCreate method.
+33         In most cases you can leave this as-is, but you if you want to provide
+34         additional functionality it is fine to subclass or reimplement
+35         FlutterApplication and put your custom class here.
+36    -->
+37    <application
+38        android:name="android.app.Application"
+38-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:28:9-42
+39        android:allowBackup="false"
+39-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:29:9-36
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.6.0] /home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/AndroidManifest.xml:24:18-86
+41        android:fullBackupOnly="false"
+41-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:30:9-39
+42        android:icon="@mipmap/ic_launcher"
+42-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:31:9-43
+43        android:label="Hola Medico"
+43-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:32:9-36
+44        android:largeHeap="true"
+44-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:33:9-33
+45        android:requestLegacyExternalStorage="true" >
+45-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:34:9-52
+46        <meta-data
+46-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:35:9-37:54
+47            android:name="com.google.firebase.messaging.default_notification_icon"
+47-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:36:13-83
+48            android:resource="@mipmap/ic_launcher" />
+48-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:37:13-51
+49        <meta-data
+49-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:38:9-40:54
+50            android:name="com.google.firebase.messaging.default_notification_color"
+50-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:39:13-84
+51            android:resource="@color/colorPrimary" />
+51-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:40:13-51
+52
+53        <receiver
+53-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:42:9-62:20
+54            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+54-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:43:13-101
+55            android:directBootAware="true"
+55-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:44:13-43
+56            android:enabled="true"
+56-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:45:13-35
+57            android:exported="false" >
+57-->[:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+58            <intent-filter>
+58-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:47:13-61:29
+59                <action android:name="android.intent.action.BOOT_COMPLETED" />
+59-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:48:17-79
+59-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:48:25-76
+60                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+60-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:49:17-86
+60-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:49:25-83
+61                <action android:name="android.intent.action.ACTION_USER_UNLOCKED" />
+61-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:50:17-85
+61-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:50:25-82
+62                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+62-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:51:17-82
+62-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:51:25-79
+63                <action android:name="android.intent.action.REBOOT" />
+63-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:52:17-71
+63-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:52:25-68
+64                <action android:name="android.intent.action.BOOT" />
+64-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:53:17-69
+64-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:53:25-66
+65                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+65-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:54:17-84
+65-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:54:25-81
+66                <action android:name="android.intent.action.USER_PRESENT" />
+66-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:55:17-77
+66-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:55:25-74
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:57:17-76
+68-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:57:27-73
+69
+70                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+70-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:59:17-82
+70-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:59:25-79
+71                <action android:name="io.radar.sdk.RECEIVED" />
+71-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:60:17-64
+71-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:60:25-61
+72            </intent-filter>
+73            <intent-filter>
+73-->[:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:19:13-24:29
+74                <action android:name="android.intent.action.BOOT_COMPLETED" />
+74-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:48:17-79
+74-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:48:25-76
+75                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+75-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:54:17-84
+75-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:54:25-81
+76                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+76-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:51:17-82
+76-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:51:25-79
+77                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+77-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:59:17-82
+77-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:59:25-79
+78            </intent-filter>
+79        </receiver>
+80
+81        <activity
+81-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:64:9-93:20
+82            android:name="me.g3it.pharmaaccess.MainActivity"
+82-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:65:13-41
+83            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+83-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:66:13-163
+84            android:exported="true"
+84-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:67:13-36
+85            android:hardwareAccelerated="true"
+85-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:68:13-47
+86            android:launchMode="singleTop"
+86-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:69:13-43
+87            android:showWhenLocked="true"
+87-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:70:13-42
+88            android:theme="@style/LaunchTheme"
+88-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:71:13-47
+89            android:turnScreenOn="true"
+89-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:72:13-40
+90            android:windowSoftInputMode="adjustResize" >
+90-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:73:13-55
+91            <intent-filter>
+91-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:75:13-84:29
+92                <action android:name="android.intent.action.MAIN" />
+92-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:76:17-69
+92-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:76:25-66
+93
+94                <category android:name="android.intent.category.LAUNCHER" />
+94-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:78:17-77
+94-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:78:27-74
+95                <category android:name="android.intent.category.BROWSABLE" />
+95-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:79:17-78
+95-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:79:27-75
+96
+97                <data
+97-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:81:17-83:46
+98                    android:host="g3it.page.link"
+98-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:82:21-50
+99                    android:scheme="https" />
+99-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:83:21-43
+100            </intent-filter>
+101            <intent-filter>
+101-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:85:13-90:29
+102                <action android:name="android.intent.action.MAIN" />
+102-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:76:17-69
+102-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:76:25-66
+103
+104                <category android:name="android.intent.category.LAUNCHER" />
+104-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:78:17-77
+104-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:78:27-74
+105
+106                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+106-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:88:17-69
+106-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:88:25-66
+107
+108                <category android:name="android.intent.category.DEFAULT" />
+108-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:57:17-76
+108-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:57:27-73
+109            </intent-filter>
+110        </activity>
+111        <!--
+112             Don't delete the meta-data below.
+113             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+114        -->
+115        <meta-data
+115-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:96:9-98:33
+116            android:name="flutterEmbedding"
+116-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:97:13-44
+117            android:value="2" />
+117-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:98:13-30
+118
+119        <service
+119-->[:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+120            android:name="com.google.firebase.components.ComponentDiscoveryService"
+120-->[:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+121            android:directBootAware="true"
+121-->[com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+122            android:exported="false" >
+122-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+123            <meta-data
+123-->[:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+124                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+124-->[:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:10:17-130
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+126            <meta-data
+126-->[:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:85
+127                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+127-->[:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:14:17-128
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:15:17-82
+129            <meta-data
+129-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:34:13-36:85
+130                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+130-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:35:17-128
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:36:17-82
+132            <meta-data
+132-->[:firebase_core] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+133                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+133-->[:firebase_core] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[:firebase_core] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+135            <meta-data
+135-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+136                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+136-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+138            <meta-data
+138-->[com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+139                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+139-->[com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:18:13-20:85
+142                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+142-->[com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:19:17-115
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:20:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-datatransport:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cbbb0b16c19e93edab993c36777339e4/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+145                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+145-->[com.google.firebase:firebase-datatransport:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cbbb0b16c19e93edab993c36777339e4/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-datatransport:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cbbb0b16c19e93edab993c36777339e4/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+147            <meta-data
+147-->[com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+148                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+148-->[com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+151                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+151-->[com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+153        </service>
+154        <service
+154-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:12:9-15:72
+155            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+155-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:13:13-107
+156            android:exported="false"
+156-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+157            android:permission="android.permission.BIND_JOB_SERVICE" />
+157-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:15:13-69
+158        <service
+158-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:16:9-22:19
+159            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+159-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:17:13-97
+160            android:exported="false" >
+160-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+161            <intent-filter>
+161-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:19:13-21:29
+162                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+162-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:17-78
+162-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:25-75
+163            </intent-filter>
+164        </service>
+165
+166        <receiver
+166-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:24:9-31:20
+167            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+167-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:25:13-98
+168            android:exported="true"
+168-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:26:13-36
+169            android:permission="com.google.android.c2dm.permission.SEND" >
+169-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:27:13-73
+170            <intent-filter>
+170-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:28:13-30:29
+171                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+171-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:17-81
+171-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:25-78
+172            </intent-filter>
+173        </receiver>
+174
+175        <provider
+175-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:39:9-43:38
+176            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+176-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:40:13-102
+177            android:authorities="me.g3it.pharmaaccess.flutterfirebasemessaginginitprovider"
+177-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:41:13-88
+178            android:exported="false"
+178-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:42:13-37
+179            android:initOrder="99" />
+179-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:43:13-35
+180        <provider
+180-->[:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+181            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+181-->[:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:9:13-82
+182            android:authorities="me.g3it.pharmaaccess.flutter.image_provider"
+182-->[:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+183            android:exported="false"
+183-->[:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+184            android:grantUriPermissions="true" >
+184-->[:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+185            <meta-data
+185-->[:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+186                android:name="android.support.FILE_PROVIDER_PATHS"
+186-->[:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+187                android:resource="@xml/flutter_image_picker_file_paths" />
+187-->[:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+188        </provider>
+189
+190        <receiver
+190-->[:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:13:9-15:40
+191            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+191-->[:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:14:13-97
+192            android:exported="false" />
+192-->[:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+193
+194        <service
+194-->[:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:12:9-15:39
+195            android:name="id.flutter.flutter_background_service.BackgroundService"
+195-->[:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
+196            android:enabled="true"
+196-->[:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:14:13-35
+197            android:exported="true" />
+197-->[:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:15:13-36
+198
+199        <receiver
+199-->[:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:17:9-20:39
+200            android:name="id.flutter.flutter_background_service.WatchdogReceiver"
+200-->[:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:18:13-82
+201            android:enabled="true"
+201-->[:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:19:13-35
+202            android:exported="true" />
+202-->[:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:20:13-36
+203        <receiver
+203-->[:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:21:9-28:20
+204            android:name="id.flutter.flutter_background_service.BootReceiver"
+204-->[:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:22:13-78
+205            android:enabled="true"
+205-->[:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:23:13-35
+206            android:exported="true" >
+206-->[:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:24:13-36
+207            <intent-filter>
+207-->[:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:25:13-27:29
+208                <action android:name="android.intent.action.BOOT_COMPLETED" />
+208-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:48:17-79
+208-->/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:48:25-76
+209            </intent-filter>
+210        </receiver>
+211
+212        <activity
+212-->[:url_launcher] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+213            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+213-->[:url_launcher] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+214            android:exported="false"
+214-->[:url_launcher] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+215            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+215-->[:url_launcher] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+216
+217        <provider
+217-->[:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+218            android:name="io.flutter.plugins.share.ShareFileProvider"
+218-->[:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:9:13-70
+219            android:authorities="me.g3it.pharmaaccess.flutter.share_provider"
+219-->[:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+220            android:exported="false"
+220-->[:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+221            android:grantUriPermissions="true" >
+221-->[:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+222            <meta-data
+222-->[:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+223                android:name="android.support.FILE_PROVIDER_PATHS"
+223-->[:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+224                android:resource="@xml/flutter_share_file_paths" />
+224-->[:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+225        </provider>
+226
+227        <uses-library
+227-->[androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+228            android:name="androidx.window.extensions"
+228-->[androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+229            android:required="false" />
+229-->[androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+230        <uses-library
+230-->[androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+231            android:name="androidx.window.sidecar"
+231-->[androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+232            android:required="false" />
+232-->[androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+233
+234        <receiver
+234-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+235            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+235-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+236            android:exported="true"
+236-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+237            android:permission="com.google.android.c2dm.permission.SEND" >
+237-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+238            <intent-filter>
+238-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:28:13-30:29
+239                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+239-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:17-81
+239-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:25-78
+240            </intent-filter>
+241        </receiver>
+242        <!--
+243             FirebaseMessagingService performs security checks at runtime,
+244             but set to not exported to explicitly avoid allowing another app to call it.
+245        -->
+246        <service
+246-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+247            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+247-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+248            android:directBootAware="true"
+248-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+249            android:exported="false" >
+249-->[com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+250            <intent-filter android:priority="-500" >
+250-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:19:13-21:29
+251                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+251-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:17-78
+251-->[:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:25-75
+252            </intent-filter>
+253        </service>
+254
+255        <provider
+255-->[com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+256            android:name="com.google.firebase.provider.FirebaseInitProvider"
+256-->[com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+257            android:authorities="me.g3it.pharmaaccess.firebaseinitprovider"
+257-->[com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+258            android:directBootAware="true"
+258-->[com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+259            android:exported="false"
+259-->[com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+260            android:initOrder="100" />
+260-->[com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+261
+262        <receiver
+262-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+263            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+263-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+264            android:enabled="true"
+264-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+265            android:exported="false" >
+265-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+266        </receiver>
+267
+268        <service
+268-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+269            android:name="com.google.android.gms.measurement.AppMeasurementService"
+269-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+270            android:enabled="true"
+270-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+271            android:exported="false" />
+271-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+272        <service
+272-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+273            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+273-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+274            android:enabled="true"
+274-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+275            android:exported="false"
+275-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+276            android:permission="android.permission.BIND_JOB_SERVICE" />
+276-->[com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+277        <service
+277-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:29:9-35:19
+278            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+278-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:30:13-103
+279            android:exported="false" >
+279-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:31:13-37
+280            <meta-data
+280-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:32:13-34:39
+281                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+281-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:33:17-94
+282                android:value="cct" />
+282-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:34:17-36
+283        </service>
+284        <service
+284-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:26:9-30:19
+285            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+285-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:27:13-117
+286            android:exported="false"
+286-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:28:13-37
+287            android:permission="android.permission.BIND_JOB_SERVICE" >
+287-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:29:13-69
+288        </service>
+289
+290        <receiver
+290-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:32:9-34:40
+291            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+291-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:33:13-132
+292            android:exported="false" />
+292-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:34:13-37
+293
+294        <meta-data
+294-->[com.google.android.gms:play-services-basement:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+295            android:name="com.google.android.gms.version"
+295-->[com.google.android.gms:play-services-basement:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+296            android:value="@integer/google_play_services_version" />
+296-->[com.google.android.gms:play-services-basement:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+297    </application>
+298
+299</manifest>

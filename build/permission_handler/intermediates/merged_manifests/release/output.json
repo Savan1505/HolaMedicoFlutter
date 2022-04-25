@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applicationId": "com.baseflow.permissionhandler",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": -1,
+        "outputFile": "permission_handler-release.aar",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "../../library_manifest/release/AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.baseflow.permissionhandler",
+        "split": ""
+      }
+    }
+  ]
+}

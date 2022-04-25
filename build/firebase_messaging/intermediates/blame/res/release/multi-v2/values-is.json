@@ -1,0 +1,116 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/res/merged/release/values-is/values-is.xml",
+            "map": [
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/9394bdc6e2d98f40685eb2df2534dac8/jetified-play-services-basement-17.0.0/res/values-is/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "187",
+                        "endOffsets": "434"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "187",
+                        "endOffsets": "288"
+                    }
+                },
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/res/values-is/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "207",
+                        "endColumns": "72",
+                        "endOffsets": "279"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "293",
+                        "endColumns": "76",
+                        "endOffsets": "365"
+                    }
+                },
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/values-is/values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "370",
+                        "endColumns": "100",
+                        "endOffsets": "466"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/incremental/mergeReleaseResources/merged.dir/values-is/values-is.xml",
+            "map": [
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/9394bdc6e2d98f40685eb2df2534dac8/jetified-play-services-basement-17.0.0/res/values-is/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "187",
+                        "endOffsets": "434"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "187",
+                        "endOffsets": "288"
+                    }
+                },
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/res/values-is/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "207",
+                        "endColumns": "72",
+                        "endOffsets": "279"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "293",
+                        "endColumns": "76",
+                        "endOffsets": "365"
+                    }
+                },
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/values-is/values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "370",
+                        "endColumns": "100",
+                        "endOffsets": "466"
+                    }
+                }
+            ]
+        }
+    ]
+}

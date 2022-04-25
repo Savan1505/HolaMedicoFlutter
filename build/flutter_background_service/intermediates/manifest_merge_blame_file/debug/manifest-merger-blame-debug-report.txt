@@ -1,0 +1,54 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.flutter.flutter_background_service" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+7-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:4:5-76
+7-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:4:22-74
+8    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+8-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:5:5-80
+8-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:5:22-78
+9    <uses-permission android:name="android.permission.WAKE_LOCK" />
+9-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:6:5-67
+9-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:6:22-65
+10
+11    <application>
+11-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:9:5-31:19
+12        <service
+12-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:10:9-14:15
+13            android:name="id.flutter.flutter_background_service.BackgroundService"
+13-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:13:13-46
+14            android:enabled="true"
+14-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:11:13-35
+15            android:exported="true" />
+15-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:12:13-36
+16
+17        <receiver
+17-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:16:9-20:15
+18            android:name="id.flutter.flutter_background_service.WatchdogReceiver"
+18-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:17:13-45
+19            android:enabled="true"
+19-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:18:13-35
+20            android:exported="true" />
+20-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:19:13-36
+21        <receiver
+21-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:22:9-29:20
+22            android:name="id.flutter.flutter_background_service.BootReceiver"
+22-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:22:19-47
+23            android:enabled="true"
+23-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:23:13-35
+24            android:exported="true" >
+24-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:24:13-36
+25            <intent-filter>
+25-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:26:13-28:29
+26                <action android:name="android.intent.action.BOOT_COMPLETED" />
+26-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:27:17-78
+26-->/home/hp/.pub-cache/hosted/pub.dartlang.org/flutter_background_service-0.2.6/android/src/main/AndroidManifest.xml:27:25-76
+27            </intent-filter>
+28        </receiver>
+29    </application>
+30
+31</manifest>

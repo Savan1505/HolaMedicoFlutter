@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

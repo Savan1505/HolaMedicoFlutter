@@ -1,0 +1,185 @@
+import 'dart:io';
+import 'package:intl/intl.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/services.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:pharmaaccess/models/game_score_model.dart';
+import 'package:pharmaaccess/services/score_service.dart';
+import 'comprehension_page.dart';
+import '../../theme.dart';
+
+
+class GameLandingPage extends StatefulWidget {
+  @override
+  _GameLandingPageState createState() => _GameLandingPageState();
+}
+
+class _GameLandingPageState extends State<GameLandingPage> {
+  bool processing = false;
+
+  @override
+  Widget build(BuildContext context) {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.portraitDown,
+      DeviceOrientation.portraitUp,
+    ]);
+    return Container(
+      child: ListView(
+        padding: EdgeInsets.all(0),
+        children: <Widget>[
+          Image.asset('assets/images/game_landing.png'),
+          GestureDetector(
+            onTap: () async {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ComprehensionPage(),
+                ),
+              );
+            },
+            child: Container(
+              alignment: Alignment.center,
+              margin: EdgeInsets.symmetric(vertical: 8, horizontal: 42),
+              padding: EdgeInsets.symmetric(vertical: 18),
+              decoration: softCardShadow,
+              width: MediaQuery.of(context).size.width * 0.5,
+              child: Text('Focus',
+                  style: Theme.of(context).textTheme.display1.copyWith(color: bodyTextColor)),
+            ),
+          ),
+          FutureBuilder<GameScoreModel>(
+              future: _processScoreFile(),
+              builder: (context, snapshot) {
+                if (processing == true) return Container();
+                if (snapshot.connectionState == ConnectionState.done) {
+                  processing = false;
+                  if (snapshot.data == null) return Container();
+                  var gameScore = snapshot.data;
+                  return Column(
+                    children: <Widget>[
+                      Divider(height: 8, color: Color(0x00FFFFFF),),
+                      RichText(
+                        text: TextSpan(
+                          children: <TextSpan>[
+                            TextSpan(
+                                text: "Score ",
+                                style: styleNormalBodyText.copyWith(
+                                  color: primaryColor,
+                                  fontWeight: FontWeight.w600,
+                                  fontSize: 26,
+                                ),
+                            ),
+                            TextSpan(
+                              text: gameScore.accumulatedScore.toString(),
+                              style: styleNormalBodyText.copyWith(
+                                fontSize: 26,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Divider(height: 14,color: Color(0x00FFFFFF),),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: <Widget>[
+                          Text("Maximum Score", style: styleNormalBodyText),
+                          Text("Maximum Level",style: styleNormalBodyText),
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: <Widget>[
+                          Text(gameScore.maximumScore.toString(), style: styleMediumPrimaryText),
+                          Text(gameScore.maximumLevel.toString().padLeft(2,'0'), style: styleMediumPrimaryText),
+                        ],
+                      ),
+                      Divider(height: 10,color: Color(0x00FFFFFF),),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: <Widget>[
+                          Text("Games Played", style: styleNormalBodyText),
+                          Text("Average Score", style: styleNormalBodyText),
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: <Widget>[
+                          Text(gameScore.gamesPlayed.toString().padLeft(2,'0'), style: styleMediumPrimaryText),
+                          Text(gameScore.averageScore.toString(), style: styleMediumPrimaryText),
+                        ],
+                      ),
+                    ],
+                  );
+                }
+                return Container();
+              }
+          ),
+        ],
+      ),
+    );
+  }
+
+  Future<GameScoreModel> _processScoreFile() async {
+    processing=true;
+    String text;
+    try {
+      //final Directory directory = await getExternalStorageDirectory();
+      //final File file = File('${directory.path}/mentile.dat');
+      //print(file);
+      /* for each line get played_on
+      if played_on > db.last_played_on process it otherwise skip it.
+     */
+      var scoreService = ScoreService();
+      /*if (await file.exists()) {
+        var gameScore = await scoreService.getGameScore('memtiles');
+        List<String> lines = await file.readAsLines();
+        if (lines.length == 0) {
+          processing = false;
+          return gameScore;
+        }
+        for (int i = 0; i< lines.length; i++) {
+          //String line = '06/12/2020 11:49:26,1,7,272';
+          String line = lines[i];
+          List<String> elements = line.split(',');
+          if (elements.length == 4) {
+            var dt = DateFormat('MM/dd/yyyy HH:mm:ss').parse(elements[0]);
+            if (gameScore != null && dt.isBefore(gameScore.lastPlayed)) continue;
+            var level = int.parse(elements[2]);
+            var score = int.parse(elements[3]);
+            Map<String, dynamic> values = {'game': 'memtiles', 'level': level, 'score': score, 'played_on': dt.toIso8601String()};
+            var success = await scoreService.processGameScore(values);
+            if (success) {
+              //update local-db with last played on.
+              //if gameScore is null create otherwise udpate
+              if (gameScore == null) {
+                gameScore = GameScoreModel(maximumLevel: level, maximumScore: score,lastPlayed: dt,
+                averageScore: score, game: "memtiles", accumulatedScore: score, gamesPlayed: 1,);
+                await scoreService.saveGameScore(gameScore);
+                continue;
+              }
+              if (dt == gameScore.lastPlayed || dt.isBefore(gameScore.lastPlayed)) continue;
+              gameScore.maximumLevel = gameScore.maximumLevel < level ? level : gameScore.maximumLevel;
+              gameScore.maximumScore = gameScore.maximumScore < score ? score : gameScore.maximumScore;
+              gameScore.accumulatedScore += score;
+              gameScore.gamesPlayed += 1;
+              gameScore.averageScore = (gameScore.accumulatedScore / gameScore.gamesPlayed).floor();
+              gameScore.lastPlayed = dt;
+              await scoreService.saveGameScore(gameScore);
+            }
+          }
+        }
+        file.writeAsStringSync('');
+      }*/
+      //var gameScore = await scoreService.getGameScore('memtiles');
+      GameScoreModel gameScore = GameScoreModel(maximumLevel: 10, maximumScore: 10,lastPlayed: DateTime.now(),
+        averageScore: 10, game: "focus", accumulatedScore: 10, gamesPlayed: 10,);
+      processing = false;
+      return gameScore;
+    } on FileSystemException catch (e) {
+      return null;
+    }
+  }
+}

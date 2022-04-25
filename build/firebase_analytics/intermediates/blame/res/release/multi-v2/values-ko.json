@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/incremental/mergeReleaseResources/merged.dir/values-ko/values-ko.xml",
+            "map": [
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/res/values-ko/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "116",
+                        "endOffsets": "311"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "120",
+                        "endOffsets": "171"
+                    }
+                },
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "176",
+                        "endColumns": "100",
+                        "endOffsets": "272"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/res/merged/release/values-ko/values-ko.xml",
+            "map": [
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/res/values-ko/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "116",
+                        "endOffsets": "311"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "120",
+                        "endOffsets": "171"
+                    }
+                },
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "176",
+                        "endColumns": "100",
+                        "endOffsets": "272"
+                    }
+                }
+            ]
+        }
+    ]
+}

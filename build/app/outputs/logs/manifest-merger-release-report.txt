@@ -1,0 +1,955 @@
+-- Merging decision tree log ---
+application
+INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:27:5-99:19
+MERGED from [:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:11:5-44:19
+MERGED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:11:5-44:19
+MERGED from [:firebase_core] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-17:19
+MERGED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:11:5-29:19
+MERGED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:11:5-29:19
+MERGED from [:url_launcher] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:7:5-12:19
+MERGED from [:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:7:5-17:19
+MERGED from [:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:7:5-17:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/b24f45774502896106ca9000182b0087/jetified-firebase-analytics-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/b24f45774502896106ca9000182b0087/jetified-firebase-analytics-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cbbb0b16c19e93edab993c36777339e4/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cbbb0b16c19e93edab993c36777339e4/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/956f030f76ab4d3c4a16a9f72b489051/jetified-play-services-measurement-sdk-20.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/956f030f76ab4d3c4a16a9f72b489051/jetified-play-services-measurement-sdk-20.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/5fd201b55a5f370465b7df8548b39bb2/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/5fd201b55a5f370465b7df8548b39bb2/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/dd0a61f21f57b3bb3c3cf07a01ce963d/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/dd0a61f21f57b3bb3c3cf07a01ce963d/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/13a53c9e9e8181401022f52e85799d75/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/13a53c9e9e8181401022f52e85799d75/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7bba85533436e8213bb1b8757696dc01/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7bba85533436e8213bb1b8757696dc01/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51f9a07eabc23024f65b75060c266516/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51f9a07eabc23024f65b75060c266516/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cde4f0992786479a6bb1bbcf7232e18b/jetified-play-services-measurement-base-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cde4f0992786479a6bb1bbcf7232e18b/jetified-play-services-measurement-base-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/hp/.gradle/caches/transforms-2/files-2.1/94d4c602645093169978437bef1de93e/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/hp/.gradle/caches/transforms-2/files-2.1/94d4c602645093169978437bef1de93e/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hp/.gradle/caches/transforms-2/files-2.1/3dfa66885a3599919e4d4d26872b78b0/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hp/.gradle/caches/transforms-2/files-2.1/3dfa66885a3599919e4d4d26872b78b0/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/hp/.gradle/caches/transforms-2/files-2.1/f7c61b50be78b8edcb5b8962dd9001f3/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/hp/.gradle/caches/transforms-2/files-2.1/f7c61b50be78b8edcb5b8962dd9001f3/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+	android:requestLegacyExternalStorage
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:34:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:32:9-36
+	android:largeHeap
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:33:9-33
+	android:icon
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:31:9-43
+	android:allowBackup
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:29:9-36
+	android:fullBackupOnly
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:30:9-39
+	android:name
+		INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:28:9-42
+manifest
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:1:1-100:12
+INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:1:1-100:12
+INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:1:1-100:12
+INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:1:1-100:12
+MERGED from [:store_redirect] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/store_redirect/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:2:1-46:12
+MERGED from [:firebase_core] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/shared_preferences/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:webview_flutter] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/webview_flutter/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:2:1-28:12
+MERGED from [:path_provider] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/path_provider/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:wakelock] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/wakelock/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:2:1-31:12
+MERGED from [:device_info] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/device_info/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:video_player] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/video_player/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/fluttertoast/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:2:1-14:12
+MERGED from [:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [:permission_handler] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/permission_handler/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:camera] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/camera/intermediates/library_manifest/release/AndroidManifest.xml:2:1-10:12
+MERGED from [:package_info] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/package_info/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/50cbf5e0639f58b749b1074a5242e535/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:17:1-58:12
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/b24f45774502896106ca9000182b0087/jetified-firebase-analytics-20.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cbbb0b16c19e93edab993c36777339e4/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d44e44aef3078ac7977a4f3c6be58a08/exifinterface-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5ca728607bb36bcd94bc3e6417cce445/webkit-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/956f030f76ab4d3c4a16a9f72b489051/jetified-play-services-measurement-sdk-20.0.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/5fd201b55a5f370465b7df8548b39bb2/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/dd0a61f21f57b3bb3c3cf07a01ce963d/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/c98421b571758d763f70efb3467e1b11/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/48d965bb3e8c3d37d3c9c69e92072dab/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/c1ebb6d0b83588bb0a6cfabe3185cada/jetified-exoplayer-hls-2.12.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/2b56992da3fd6d2ab85d63fdd88f8942/jetified-exoplayer-dash-2.12.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/986d52d6e0946f4ac40c1e070f14f531/jetified-exoplayer-smoothstreaming-2.12.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/a8d17c932751df8e7c7e09abf8531e5e/jetified-exoplayer-core-2.12.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cf9c8e62ab9eb1912d1b334c0adb613e/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/f772c94674f34b6ef2178c3d63fceb3d/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.media:media:1.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/114ea32628a5af20893d98d69069084a/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12fcad03c16a81802e3d4828939ff495/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/13a53c9e9e8181401022f52e85799d75/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7bba85533436e8213bb1b8757696dc01/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51f9a07eabc23024f65b75060c266516/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cd641923baf47eefc7fd33e32ef8de5d/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cde4f0992786479a6bb1bbcf7232e18b/jetified-play-services-measurement-base-20.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/27d846630aa2a1c937df4be299cf86b6/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/hp/.gradle/caches/transforms-2/files-2.1/94d4c602645093169978437bef1de93e/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/784d0e1dc60031cd9ebcb5cd6105551b/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/673bbf05fb2f25e9382e39d2def431e4/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/4d4041a6b6a8611604699a9985b52f7f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5e94d2fb354c7edce06fea9f78127999/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ebe9a636f65cd51aac9d2c240b0c9831/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/hp/.gradle/caches/transforms-2/files-2.1/e1b470635fcd9728a5b4940ac1b457eb/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/e28f52571e2b9d6d0da29ec2c4b717a1/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a3e27ecc344060eb7bb79a06440fe52b/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/733b53265d100889b1e9ef4274ae22f5/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/22fe7a2b712311f3fd6a0df3822eb87c/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/9faeaa0cdb0f646e38e6e05545cd9217/jetified-exoplayer-extractor-2.12.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/66976701357ced39ef5d9d63272220be/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/39432e27a178942fd28b58f564198810/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/b448edf9d8a7e0979a1948183696d2ec/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/4d7a09bfb3081a791c3bb05de18d3c43/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hp/.gradle/caches/transforms-2/files-2.1/3dfa66885a3599919e4d4d26872b78b0/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83f92484cb5b9637537dea7f17bb49a7/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cae8ce74da3b6991248da42cce9d9ed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/hp/.gradle/caches/transforms-2/files-2.1/f7c61b50be78b8edcb5b8962dd9001f3/jetified-threetenabp-1.2.3/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/f491ef3bf0c6ba9161ba0f583772a0ea/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:1:1-100:12
+INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:1:1-100:12
+INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:1:1-100:12
+	package
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:1:1-100:12
+		INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:1:1-100:12
+		INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:8:5-67
+MERGED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:8:5-67
+MERGED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:7:5-67
+MERGED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/5fd201b55a5f370465b7df8548b39bb2/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/5fd201b55a5f370465b7df8548b39bb2/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12fcad03c16a81802e3d4828939ff495/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12fcad03c16a81802e3d4828939ff495/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cd641923baf47eefc7fd33e32ef8de5d/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cd641923baf47eefc7fd33e32ef8de5d/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/5fd201b55a5f370465b7df8548b39bb2/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/5fd201b55a5f370465b7df8548b39bb2/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/a8d17c932751df8e7c7e09abf8531e5e/jetified-exoplayer-core-2.12.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/a8d17c932751df8e7c7e09abf8531e5e/jetified-exoplayer-core-2.12.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12fcad03c16a81802e3d4828939ff495/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12fcad03c16a81802e3d4828939ff495/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cd641923baf47eefc7fd33e32ef8de5d/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cd641923baf47eefc7fd33e32ef8de5d/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/66976701357ced39ef5d9d63272220be/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/66976701357ced39ef5d9d63272220be/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.CAMERA
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:8:5-65
+MERGED from [:camera] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/camera/intermediates/library_manifest/release/AndroidManifest.xml:7:5-65
+MERGED from [:camera] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/camera/intermediates/library_manifest/release/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:8:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:9:5-71
+MERGED from [:camera] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/camera/intermediates/library_manifest/release/AndroidManifest.xml:8:5-71
+MERGED from [:camera] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/camera/intermediates/library_manifest/release/AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_MEDIA_LOCATION
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:12:22-77
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:13:5-77
+MERGED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:7:5-77
+MERGED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:13:22-74
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:14:5-81
+MERGED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+MERGED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+MERGED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:8:5-81
+MERGED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:15:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:16:5-68
+MERGED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:9:5-68
+MERGED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:9:5-68
+MERGED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:5-68
+MERGED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:5-68
+MERGED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:9:5-68
+MERGED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:9:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/5fd201b55a5f370465b7df8548b39bb2/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/5fd201b55a5f370465b7df8548b39bb2/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12fcad03c16a81802e3d4828939ff495/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12fcad03c16a81802e3d4828939ff495/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cd641923baf47eefc7fd33e32ef8de5d/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cd641923baf47eefc7fd33e32ef8de5d/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:16:22-65
+uses-permission#android.permission.BIND_ACCESSIBILITY_SERVICE
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:17:5-19:47
+	tools:ignore
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:19:9-44
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:18:9-69
+uses-permission#android.permission.VIBRATE
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:20:5-66
+MERGED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:8:5-66
+MERGED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:20:22-63
+uses-sdk
+INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+MERGED from [:store_redirect] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/store_redirect/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:store_redirect] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/store_redirect/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/shared_preferences/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/shared_preferences/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/webview_flutter/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/webview_flutter/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/path_provider/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/path_provider/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/wakelock/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/wakelock/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:device_info] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/device_info/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:device_info] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/device_info/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/video_player/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/video_player/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/fluttertoast/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/fluttertoast/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/permission_handler/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/permission_handler/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:camera] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/camera/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:camera] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/camera/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/package_info/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/package_info/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/50cbf5e0639f58b749b1074a5242e535/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/50cbf5e0639f58b749b1074a5242e535/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/b24f45774502896106ca9000182b0087/jetified-firebase-analytics-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/b24f45774502896106ca9000182b0087/jetified-firebase-analytics-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cbbb0b16c19e93edab993c36777339e4/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cbbb0b16c19e93edab993c36777339e4/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d44e44aef3078ac7977a4f3c6be58a08/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d44e44aef3078ac7977a4f3c6be58a08/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5ca728607bb36bcd94bc3e6417cce445/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5ca728607bb36bcd94bc3e6417cce445/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/956f030f76ab4d3c4a16a9f72b489051/jetified-play-services-measurement-sdk-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/956f030f76ab4d3c4a16a9f72b489051/jetified-play-services-measurement-sdk-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/5fd201b55a5f370465b7df8548b39bb2/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/5fd201b55a5f370465b7df8548b39bb2/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/dd0a61f21f57b3bb3c3cf07a01ce963d/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/dd0a61f21f57b3bb3c3cf07a01ce963d/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/c98421b571758d763f70efb3467e1b11/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/c98421b571758d763f70efb3467e1b11/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/48d965bb3e8c3d37d3c9c69e92072dab/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/48d965bb3e8c3d37d3c9c69e92072dab/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/c1ebb6d0b83588bb0a6cfabe3185cada/jetified-exoplayer-hls-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/c1ebb6d0b83588bb0a6cfabe3185cada/jetified-exoplayer-hls-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/2b56992da3fd6d2ab85d63fdd88f8942/jetified-exoplayer-dash-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/2b56992da3fd6d2ab85d63fdd88f8942/jetified-exoplayer-dash-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/986d52d6e0946f4ac40c1e070f14f531/jetified-exoplayer-smoothstreaming-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/986d52d6e0946f4ac40c1e070f14f531/jetified-exoplayer-smoothstreaming-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/a8d17c932751df8e7c7e09abf8531e5e/jetified-exoplayer-core-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/a8d17c932751df8e7c7e09abf8531e5e/jetified-exoplayer-core-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cf9c8e62ab9eb1912d1b334c0adb613e/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cf9c8e62ab9eb1912d1b334c0adb613e/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/f772c94674f34b6ef2178c3d63fceb3d/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/f772c94674f34b6ef2178c3d63fceb3d/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.media:media:1.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/114ea32628a5af20893d98d69069084a/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/114ea32628a5af20893d98d69069084a/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12fcad03c16a81802e3d4828939ff495/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12fcad03c16a81802e3d4828939ff495/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/13a53c9e9e8181401022f52e85799d75/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/13a53c9e9e8181401022f52e85799d75/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7bba85533436e8213bb1b8757696dc01/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7bba85533436e8213bb1b8757696dc01/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51f9a07eabc23024f65b75060c266516/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51f9a07eabc23024f65b75060c266516/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cd641923baf47eefc7fd33e32ef8de5d/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cd641923baf47eefc7fd33e32ef8de5d/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cde4f0992786479a6bb1bbcf7232e18b/jetified-play-services-measurement-base-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/cde4f0992786479a6bb1bbcf7232e18b/jetified-play-services-measurement-base-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/27d846630aa2a1c937df4be299cf86b6/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/27d846630aa2a1c937df4be299cf86b6/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/hp/.gradle/caches/transforms-2/files-2.1/94d4c602645093169978437bef1de93e/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/hp/.gradle/caches/transforms-2/files-2.1/94d4c602645093169978437bef1de93e/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/784d0e1dc60031cd9ebcb5cd6105551b/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/784d0e1dc60031cd9ebcb5cd6105551b/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/673bbf05fb2f25e9382e39d2def431e4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/673bbf05fb2f25e9382e39d2def431e4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/4d4041a6b6a8611604699a9985b52f7f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/4d4041a6b6a8611604699a9985b52f7f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5e94d2fb354c7edce06fea9f78127999/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5e94d2fb354c7edce06fea9f78127999/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ebe9a636f65cd51aac9d2c240b0c9831/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ebe9a636f65cd51aac9d2c240b0c9831/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /home/hp/.gradle/caches/transforms-2/files-2.1/96d18b05f58cc2c576ba1f8b2b681eea/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/hp/.gradle/caches/transforms-2/files-2.1/e1b470635fcd9728a5b4940ac1b457eb/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/hp/.gradle/caches/transforms-2/files-2.1/e1b470635fcd9728a5b4940ac1b457eb/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/e28f52571e2b9d6d0da29ec2c4b717a1/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/e28f52571e2b9d6d0da29ec2c4b717a1/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a3e27ecc344060eb7bb79a06440fe52b/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a3e27ecc344060eb7bb79a06440fe52b/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/733b53265d100889b1e9ef4274ae22f5/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/733b53265d100889b1e9ef4274ae22f5/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/22fe7a2b712311f3fd6a0df3822eb87c/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/22fe7a2b712311f3fd6a0df3822eb87c/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/9faeaa0cdb0f646e38e6e05545cd9217/jetified-exoplayer-extractor-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/9faeaa0cdb0f646e38e6e05545cd9217/jetified-exoplayer-extractor-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/66976701357ced39ef5d9d63272220be/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /home/hp/.gradle/caches/transforms-2/files-2.1/66976701357ced39ef5d9d63272220be/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/39432e27a178942fd28b58f564198810/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/39432e27a178942fd28b58f564198810/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/b448edf9d8a7e0979a1948183696d2ec/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/b448edf9d8a7e0979a1948183696d2ec/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/4d7a09bfb3081a791c3bb05de18d3c43/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/4d7a09bfb3081a791c3bb05de18d3c43/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hp/.gradle/caches/transforms-2/files-2.1/3dfa66885a3599919e4d4d26872b78b0/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hp/.gradle/caches/transforms-2/files-2.1/3dfa66885a3599919e4d4d26872b78b0/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83f92484cb5b9637537dea7f17bb49a7/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83f92484cb5b9637537dea7f17bb49a7/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cae8ce74da3b6991248da42cce9d9ed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cae8ce74da3b6991248da42cce9d9ed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/hp/.gradle/caches/transforms-2/files-2.1/f7c61b50be78b8edcb5b8962dd9001f3/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/hp/.gradle/caches/transforms-2/files-2.1/f7c61b50be78b8edcb5b8962dd9001f3/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/f491ef3bf0c6ba9161ba0f583772a0ea/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/f491ef3bf0c6ba9161ba0f583772a0ea/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:35:9-37:54
+	android:resource
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:37:13-51
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:36:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:38:9-40:54
+	android:resource
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:40:13-51
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:39:13-84
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:42:9-62:20
+MERGED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:16:9-25:20
+MERGED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:16:9-25:20
+	tools:node
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:46:13-31
+	android:enabled
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+	android:directBootAware
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:44:13-43
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:43:13-101
+intent-filter#action:name:android.intent.action.ACTION_USER_UNLOCKED+action:name:android.intent.action.BOOT+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:android.intent.action.REBOOT+action:name:android.intent.action.USER_PRESENT+action:name:com.htc.intent.action.QUICKBOOT_POWERON+action:name:io.radar.sdk.RECEIVED+category:name:android.intent.category.DEFAULT
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:47:13-61:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:48:17-79
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:48:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:49:17-86
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:49:25-83
+action#android.intent.action.ACTION_USER_UNLOCKED
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:50:17-85
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:50:25-82
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:51:17-82
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:51:25-79
+action#android.intent.action.REBOOT
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:52:17-71
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:52:25-68
+action#android.intent.action.BOOT
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:53:17-69
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:53:25-66
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:54:17-84
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:54:25-81
+action#android.intent.action.USER_PRESENT
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:55:17-77
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:55:25-74
+category#android.intent.category.DEFAULT
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:57:17-76
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:57:27-73
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:59:25-79
+action#io.radar.sdk.RECEIVED
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:60:17-64
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:60:25-61
+activity#me.g3it.pharmaaccess.MainActivity
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:64:9-93:20
+	tools:node
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:74:13-31
+	android:turnScreenOn
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:72:13-40
+	android:showWhenLocked
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:70:13-42
+	android:launchMode
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:69:13-43
+	android:hardwareAccelerated
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:68:13-47
+	android:windowSoftInputMode
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:73:13-55
+	android:exported
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:67:13-36
+	android:configChanges
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:66:13-163
+	android:theme
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:71:13-47
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:65:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.LAUNCHER+data:host:g3it.page.link+data:scheme:https
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:75:13-84:29
+action#android.intent.action.MAIN
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:76:17-69
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:76:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:78:17-77
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:78:27-74
+category#android.intent.category.BROWSABLE
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:79:17-78
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:79:27-75
+data
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:81:17-83:46
+	android:host
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:82:21-50
+	android:scheme
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:83:21-43
+intent-filter#action:name:FLUTTER_NOTIFICATION_CLICK+action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:85:13-90:29
+action#FLUTTER_NOTIFICATION_CLICK
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:88:17-69
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:88:25-66
+meta-data#flutterEmbedding
+ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:96:9-98:33
+	android:value
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:98:13-30
+	android:name
+		ADDED from /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/android/app/src/main/AndroidManifest.xml:97:13-44
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:33:9-37:19
+MERGED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:33:9-37:19
+MERGED from [:firebase_core] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cbbb0b16c19e93edab993c36777339e4/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cbbb0b16c19e93edab993c36777339e4/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_crashlytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:10:17-130
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [:firebase_analytics] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:14:17-128
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
+ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:12:9-15:72
+	android:exported
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+	android:permission
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:15:13-69
+	android:name
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:13:13-107
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:16:9-22:19
+	android:exported
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:17:13-97
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:19:13-21:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:17-78
+	android:name
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:25-75
+receiver#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:24:9-31:20
+	android:exported
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:27:13-73
+	android:name
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:25:13-98
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:28:13-30:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:17-81
+	android:name
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:25-78
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:34:13-36:85
+	android:value
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:36:17-82
+	android:name
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:35:17-128
+provider#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:39:9-43:38
+	android:authorities
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:41:13-88
+	android:exported
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:42:13-37
+	android:initOrder
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:43:13-35
+	android:name
+		ADDED from [:firebase_messaging] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:40:13-102
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:10:22-76
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:14:13-97
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:19:13-24:29
+service#id.flutter.flutter_background_service.BackgroundService
+ADDED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:12:9-15:39
+	android:enabled
+		ADDED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:14:13-35
+	android:exported
+		ADDED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
+receiver#id.flutter.flutter_background_service.WatchdogReceiver
+ADDED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:17:9-20:39
+	android:enabled
+		ADDED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:19:13-35
+	android:exported
+		ADDED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:18:13-82
+receiver#id.flutter.flutter_background_service.BootReceiver
+ADDED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:21:9-28:20
+	android:enabled
+		ADDED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:23:13-35
+	android:exported
+		ADDED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:22:13-78
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_background_service] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/flutter_background_service/intermediates/library_manifest/release/AndroidManifest.xml:25:13-27:29
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+provider#io.flutter.plugins.share.ShareFileProvider
+ADDED from [:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:share] /home/hp/AndroidStudioProject/Epistic/FlutterApplication/hola-medico/build/share/intermediates/library_manifest/release/AndroidManifest.xml:9:13-70
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/hp/.gradle/caches/transforms-2/files-2.1/0e32b64dfb26f9d030293c3b83ce36db/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12fcad03c16a81802e3d4828939ff495/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12fcad03c16a81802e3d4828939ff495/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/666de67db14b623d957a9b8c683d4d54/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0651f7fd508eb96befba3a2165c36b72/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.7] /home/hp/.gradle/caches/transforms-2/files-2.1/4c0fce84ebdc486cbf68266a963b1c23/jetified-firebase-crashlytics-18.2.7/AndroidManifest.xml:19:17-115
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cbbb0b16c19e93edab993c36777339e4/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cbbb0b16c19e93edab993c36777339e4/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cbbb0b16c19e93edab993c36777339e4/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/88a12b789692ef4b3f7f29b97b7580e3/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7cce9dadbd6987bc832f487202d71161/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/fca8fbb70443409321ee58c4eb1011f4/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/5fd201b55a5f370465b7df8548b39bb2/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/5fd201b55a5f370465b7df8548b39bb2/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /home/hp/.gradle/caches/transforms-2/files-2.1/077cf94280d1f4ee60f7f24efdb02a61/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/ce4fa6a865424461e336fb1b3645bbce/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/bea1851799498dcae8bfdd6f0cefb8f6/jetified-transport-runtime-3.1.0/AndroidManifest.xml:33:13-132
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51f9a07eabc23024f65b75060c266516/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51f9a07eabc23024f65b75060c266516/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0140fd623853c614b2b9b87a0dbf8c21/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
